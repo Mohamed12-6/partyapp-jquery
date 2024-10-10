@@ -1,0 +1,171 @@
+*{
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none !important;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";00
+}
+
+
+
+
+/*?--------------------------------- Home style --------------------------------- */
+#Home{
+    background: linear-gradient(#e4383899,#9e101099,#fa313199),url(../images/events-heavenly-header.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: center center;
+    height: 70vh;
+}
+
+.content h2{
+    font-size: 60px;
+}
+
+.slide-left{
+    width: 250px;
+    height: 100vh;
+    background-color:#000;
+    position: fixed;
+    bottom:  0;
+    left: -250px ;
+}
+
+.link i{
+    position: absolute;
+    top: 15px;
+    right: 25px;
+    font-size: 36px;
+    color: #fff;
+    transition:all 0.3s;
+    cursor: pointer;
+}
+.link i:hover{
+    color: rgba(214, 46, 51 , 0.4);
+}
+
+.slide-left .link a{
+    display:block;
+    padding-block: 10px;
+    font-size: 25px;
+    transition:all 0.3s;
+    color: white;
+}
+
+.slide-left .link a:hover{
+    color: rgba(214, 46, 51 , 0.4);
+}
+
+
+.openNav{
+    color: #fff;
+    position: absolute;
+    top: 35%;
+    left: 20px;
+    font-size: 30px;
+    cursor: pointer;
+}
+
+
+
+/*?--------------------------------- Duration section --------------------------------- */
+
+.content{
+    margin: 100px auto;
+}
+.toggle{
+    padding: 10px;
+    background-color: rgba(214, 46, 51, 0.6);
+    cursor: pointer;
+    color: white;
+}
+.content div{
+    padding: 10px;
+    background-color: #ccc;
+}
+
+.inner-first{
+    display: none;
+}
+.one{
+    display: block;
+}
+
+
+/*?--------------------------------- Details section --------------------------------- */
+
+
+#Details{
+    background: linear-gradient(#e4383899,#9e101099,#fa313199),url(../images/invitation-2508607__340.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 100% 100%;
+    height: 330px;
+    text-align: center;
+}
+.time{ 
+    /* padding: 50px; */
+    border: 1px solid #FFF;
+    font-weight: 500;
+    font-size: 30px;
+    text-align: center;
+    color: #FFF;
+}
+
+/*?--------------------------------- Contact section --------------------------------- */
+
+
+.header p{
+    text-align: center;
+    color: #777;
+    font-weight: 300;
+}
+.header h2{
+    text-transform: uppercase;
+    font-size: 35px;
+    color: #444;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+.info p{
+    color: #777;
+    font-weight: 300;
+    text-align: center;
+}
+.info h3{
+    color: #444;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.social-media i{
+    margin-right: 10px;
+    border: 1px solid #999;
+    width: 40px;
+    height: 40px;
+    line-height: 42px;
+    cursor: pointer;
+    text-align: center;
+}
+.icons i{
+    margin-right: 20px;
+    color: #777;
+}
+.text{
+    color: #D62E33 !important;
+}
+.social-media i:hover{
+    color: #fff;
+    background-color: #D62E33;
+    border: 1px solid #D62E33;
+}
+
+.button{
+    background-color: #D62E33;
+    padding: 10px 20px;
+}
+
+
+.textarea{
+    height: 200px;
+    resize: vertical;
+}
